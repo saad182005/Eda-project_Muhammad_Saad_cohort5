@@ -1,11 +1,11 @@
 # Eda-project_Muhammad_Saad_cohort5
-# 🏠 Real Estate Market Insights: Zameen.com EDA Project
+# Real Estate Market Insights: Zameen.com EDA Project
 
 This project explores real estate listings from [Zameen.com](https://www.zameen.com/) using data analysis and visualization techniques. The goal is to extract actionable insights — such as pricing trends, property sizes, and city-wise comparisons — to help investors and analysts make more informed decisions.
 
 ---
 
-## 📌 Project Objective
+## Project Objective
 
 To conduct exploratory data analysis (EDA) on Pakistan's real estate market using property listings from Zameen.com. We aim to uncover:
 
@@ -17,7 +17,7 @@ To conduct exploratory data analysis (EDA) on Pakistan's real estate market usin
 
 ---
 
-## 🧩 Dataset Description
+##Dataset Description
 
 The dataset includes the following fields:
 
@@ -33,7 +33,7 @@ The dataset includes the following fields:
 
 ---
 
-## 🛠️ Tools & Libraries
+## Tools & Libraries
 
 - Python  
 - Pandas & NumPy  
@@ -42,9 +42,9 @@ The dataset includes the following fields:
 
 ---
 
-## 🔍 Analysis Sections
+##  Analysis Sections
 
-### 1. 🧼 Data Cleaning & Preprocessing
+### 1.  Data Cleaning & Preprocessing
 - Removed commas, symbols (e.g., PKR), and converted `Price` and `Area` to numerical values.
 - Standardized all area values to square feet.
 - Dropped listings with missing key fields like price or area.
@@ -52,7 +52,7 @@ The dataset includes the following fields:
 
 ---
 
-### 2. 📈 Univariate Analysis
+### 2.  Univariate Analysis
 Analyzing single features to understand their distribution and patterns:
 
 - **Property Prices:** Histogram with KDE showing skewed price distribution (most properties priced in the lower-mid range).
@@ -63,7 +63,7 @@ Analyzing single features to understand their distribution and patterns:
 
 ---
 
-### 3. 📊 Bivariate Analysis
+### 3.  Bivariate Analysis
 Studying relationships between two variables to uncover trends:
 
 - **Price per Sqft vs Property Type:** Flats and houses have higher price/sqft than plots.
@@ -77,7 +77,7 @@ Studying relationships between two variables to uncover trends:
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 
 - **Islamabad, Lahore, and Karachi** have the highest median property prices.
 - **Plots** are the most frequently listed property type.
@@ -87,9 +87,4 @@ Studying relationships between two variables to uncover trends:
 
 ---
 
-## 🚀 How to Run
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/yourusername/zameen-eda-project.git
-   cd zameen-eda-project
